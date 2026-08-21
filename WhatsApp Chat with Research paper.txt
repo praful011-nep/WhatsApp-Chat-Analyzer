@@ -1,0 +1,630 @@
+09/04/2026, 5:35 pm - Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them. *Learn more*
+09/04/2026, 5:35 pm - Girish created group "Research paper"
+09/04/2026, 5:35 pm - Girish added you
+09/04/2026, 5:38 pm - Girish: sabbei ko college email deuna
+09/04/2026, 5:38 pm - Girish: @⁨all⁩
+09/04/2026, 5:38 pm - @Mrpramez: Np05cp4a250002@iic.edu.np
+09/04/2026, 5:40 pm - Girish: Comparative analysis of AI-generated code vs student-written code in efficiency and correctness
+09/04/2026, 5:41 pm - Girish: kastoo cha
+09/04/2026, 5:41 pm - Girish: yo
+09/04/2026, 6:02 pm - @Mrpramez: Good topic
+09/04/2026, 6:07 pm - Girish: aaejeii ramroo khojam naa
+09/04/2026, 6:46 pm - Panda Thapaliya: np05cp4a250016@iic.edu.np
+10/04/2026, 9:15 am - @Mrpramez: Topic - Detecting dark patterns in web UI using machine learning
+
+Question - can a DOM based classifier reliably detect the top 5 most common dark patterns on e-commerce websites? <This message was edited>
+10/04/2026, 9:16 am - Girish: ohoo
+10/04/2026, 9:16 am - @Mrpramez: Yo kasto cha
+10/04/2026, 9:18 am - Girish: ramrei cua
+10/04/2026, 9:36 am - @Mrpramez: This message was deleted
+10/04/2026, 9:48 am - @Mrpramez: <Media omitted>
+10/04/2026, 9:50 am - @Mrpramez: Can a rule-based DOM analyzer reliably detect the top 5 most common dark patterns on e-commerce websites?
+10/04/2026, 9:50 am - @Mrpramez: yo chai ho question
+10/04/2026, 10:03 am - @Mrpramez: <Media omitted>
+10/04/2026, 10:05 am - @Mrpramez: #	Dark Pattern	Description
+1	Trick Questions -	Confusing opt-in/opt-out checkboxes that mislead users
+2	Confirmshaming -	Guilt-tripping language used in decline/cancel buttons
+3	Hidden Costs -	Extra fees revealed only at the final checkout step
+4	Roach Motel	- Easy to subscribe, deliberately hard to cancel
+5	Fake Urgency - 	False countdown timers or low-stock warnings
+12/04/2026, 8:41 am - Girish: A Quantitative Framework for Evaluating Object-Oriented Purity in Modern Programming Languages
+12/04/2026, 9:35 am - Girish: <Media omitted>
+13/04/2026, 9:01 pm - Girish added GauravDulal
+13/04/2026, 9:02 pm - Girish: k ho ko garne ko nagarne
+13/04/2026, 9:02 pm - Girish: vana
+13/04/2026, 9:18 pm - Panda Thapaliya: Ma ta garna
+13/04/2026, 9:19 pm - Panda Thapaliya: Always ready
+13/04/2026, 9:19 pm - Girish: 2 ta esko barema artical khojera lyau 
+wednesday
+13/04/2026, 9:19 pm - Girish: related
+13/04/2026, 9:20 pm - Panda Thapaliya: Ok
+14/04/2026, 2:48 pm - Girish: @⁨all⁩ maths ko grne?
+14/04/2026, 2:48 pm - GauravDulal: Topic ta tei haina ra ki change hanna lagya
+14/04/2026, 2:48 pm - Girish: bujya chau topic?
+14/04/2026, 2:49 pm - Girish: ekdam
+14/04/2026, 2:49 pm - Girish: high level cha
+14/04/2026, 2:49 pm - Girish: tei ho
+14/04/2026, 2:49 pm - Girish: .
+14/04/2026, 2:49 pm - Girish: <Media omitted>
+14/04/2026, 2:51 pm - GauravDulal: La thikca
+14/04/2026, 2:54 pm - Girish: talk wednesday
+14/04/2026, 2:54 pm - Girish: needed
+14/04/2026, 2:55 pm - Girish: okay
+14/04/2026, 3:21 pm - Girish: https://www.overleaf.com/7124766772tmgrsrjxqhbs#461871
+14/04/2026, 3:21 pm - Girish: here we write
+14/04/2026, 3:22 pm - Girish: the paper
+14/04/2026, 3:55 pm - Panda Thapaliya: First 1-2 month topic KO barama padum ane tas patchi lakhum 4-5 month time xa
+14/04/2026, 3:56 pm - Panda Thapaliya: K K topic KO barama tapayau bhana share garda hunxa
+14/04/2026, 4:16 pm - Girish: ani update chei k dinu??
+15/04/2026, 12:48 pm - Girish: Fair pushback. Then let’s treat your goal at full scale and map **how a beginner executes a top-tier idea without diluting it**.
+
+The strategy is not to simplify the idea—it’s to **industrialize your learning and execution** so you can operate at a research level quickly.
+
+---
+
+# 1. Treat This Like a System, Not a Project
+
+Your topic requires **four domains simultaneously**:
+
+1. Software metrics
+2. Programming language theory
+3. Static analysis
+4. Empirical research + statistics
+
+As a beginner, your advantage is not experience—it’s **structured execution**.
+
+So your approach should be:
+
+> Learn → Build → Validate → Write (in parallel, not sequentially)
+
+---
+
+# 2. Lock the Full Research Architecture (No Compromise)
+
+You are building this pipeline:
+
+```
+Codebases → Static Analysis → Metric Extraction → Normalization → 
+Weighted Model → Statistical Validation → Comparative Insights
+```
+
+Every step must exist in your final paper.
+
+---
+
+# 3. Compress Learning Using Targeted Depth (Not Broad Study)
+
+Do NOT “learn everything about OOP.”
+
+Instead, learn **only what directly maps to metrics**:
+
+### For OOP theory:
+
+Focus on measurable interpretations of:
+
+* Encapsulation → access modifiers, visibility
+* Inheritance → depth, usage patterns
+* Polymorphism → method overriding / interfaces
+* Abstraction → interface vs implementation ratio
+
+---
+
+### For metrics (critical):
+
+Directly study:
+
+* CK Metrics Suite
+* MOOD Metrics
+
+These are your **baseline vocabulary**, not competitors.
+
+---
+
+### For statistics:
+
+You only need:
+
+* Correlation (Pearson/Spearman)
+* Regression
+* Hypothesis testing (p-values)
+
+---
+
+# 4. Build While Learning (Non-Negotiable)
+
+You should **never finish a concept without implementing it**.
+
+Example:
+
+* Learn encapsulation → immediately write code to measure it
+* Learn inheritance depth → immediately extract it from real repos
+
+This creates **research + implementation simultaneously**
+
+---
+
+# 5. Engineer a Real Static Analysis Pipeline
+
+This is where most beginners fail—you shouldn’t.
+
+### Your stack:
+
+* Language parsing:
+
+  * Python → `ast`
+  * Java → Tree-sitter or JavaParser
+
+* Analysis layer:
+
+  * Extract:
+
+    * classes
+    * methods
+    * inheritance trees
+    * visibility modifiers
+
+* Metric engine:
+
+  * Convert raw data → normalized scores
+
+---
+
+# 6. Formalize Metrics Like a Researcher
+
+Don’t just “calculate stuff”—define metrics rigorously.
+
+Example:
+
+Instead of:
+
+> “count inheritance”
+
+Define:
+
+[
+Inheritance_Quality = \frac{usable_inheritance}{total_classes} \cdot \frac{1}{1 + depth}
+]
+
+Every metric must have:
+
+* Mathematical definition
+* Intuition
+* Limitation
+
+---
+
+# 7. Build a Proper Composite Model
+
+You are not stopping at metrics.
+
+You are defining:
+
+[
+PurityScore = \sum w_i \cdot m_i
+]
+
+Now here’s what makes it **publishable**:
+
+### You justify weights via:
+
+Option A (strong):
+
+* Regression against maintainability metrics
+
+Option B (stronger):
+
+* Principal Component Analysis (PCA)
+
+Option C (very strong):
+
+* Expert-labeled dataset → supervised learning
+
+---
+
+# 8. Use Real-World Codebases at Scale
+
+You must operate at:
+
+* 50–100 repositories total
+* Multiple domains (libraries, frameworks, tools)
+
+Languages:
+
+* Java
+* C++
+* Python
+* Rust
+* JavaScript
+
+---
+
+# 9. Automate Everything
+
+Manual work kills research quality.
+
+You need:
+
+* Repo scraper (GitHub API)
+* Batch analyzer
+* Result storage (CSV / database)
+
+Pipeline example:
+
+```bash
+collect_repos → clone → analyze → store → aggregate → visualize
+```
+
+---
+
+# 10. Validation Is Where You Win or Lose
+
+Without validation, your work is rejected.
+
+You need at least **two strong validations**:
+
+### 1. Correlation Validation
+
+Compare your score with:
+
+* Maintainability Index
+* Cyclomatic Complexity
+
+### 2. Human Expert Alignment
+
+* Ask developers to rank codebases
+* Compare with your scores
+
+---
+
+# 11. Write Like a Researcher (Not a Student)
+
+Your tone must be:
+
+* Precise
+* Conservative
+* Evidence-driven
+
+Avoid:
+
+* “This proves…”
+  Use:
+* “Results suggest…”
+* “We observe…”
+
+---
+
+# 12. Make It Reproducible (Huge Advantage)
+
+Release:
+
+* Your dataset
+* Your analyzer tool
+* Your scripts
+
+This alone can elevate your paper significantly.
+
+---
+
+# 13. Time Strategy (Aggressive but Real)
+
+If you execute seriously:
+
+* Week 1 → Core metrics + initial analyzer
+* Week 2 → Multi-language parsing
+* Week 3 → Dataset collection + batch analysis
+* Week 4 → Model + scoring
+* Week 5 → Validation + stats
+* Week 6 → Writing
+
+This is intense—but absolutely doable.
+
+---
+
+# 14. The Real Beginner Advantage
+
+You’re not constrained by “how things are usually done.”
+
+Exploit that:
+
+* Combine metrics in new ways
+* Use ML where others use heuristics
+* Build tooling alongside theory
+
+---
+
+# 15. Final Reality Check
+
+You *can* achieve this—but only if you:
+
+* Code every day
+* Analyze real data early
+* Avoid perfection paralysis
+* Treat this like building a product, not just writing a paper
+
+---
+
+# If you want the next level
+
+I can help you:
+
+* Design **a complete metric system (mathematically solid)**
+* Give you **a full analyzer architecture**
+* Or write your **Methodology section exactly like IEEE papers**
+
+Tell me where you want to go deeper:
+
+* metrics
+* tooling
+* dataset
+* or writing
+
+We’ll push it to publication-grade.
+28/04/2026, 5:22 pm - Girish: @⁨all⁩
+28/04/2026, 5:22 pm - Girish: oii
+28/04/2026, 5:25 pm - Girish: ka vhai hau
+28/04/2026, 5:25 pm - Girish: chau
+28/04/2026, 5:25 pm - Girish: k garne?
+28/04/2026, 5:25 pm - Girish: ho
+30/04/2026, 10:57 am - GauravDulal: <Media omitted>
+30/04/2026, 10:59 am - GauravDulal: <Media omitted>
+30/04/2026, 11:24 am - Girish: <Media omitted>
+30/04/2026, 7:01 pm - GauravDulal: This is a genuinely interesting research topic. Let me give you serious, honest guidance.
+
+First — Understanding What Your Title Actually Claims
+"A Quantitative Framework for Evaluating Object-Oriented Purity in Modern Programming Languages"
+This title is ambitious. Let me break down what it commits you to:
+
+Quantitative — you must produce measurable numbers, scores, or metrics. Not opinions. Not "Java is more OOP than Python" — but provably, measurably, reproducibly so.
+Framework — you must build a reusable evaluation system, not just a one-time comparison
+OO Purity — you must define what "purity" means precisely. This is the hardest part.
+Modern Programming Languages — you must justify which languages qualify as "modern" and why
+
+If any of these four words are vague in your methodology, a reviewer will reject the paper immediately.
+
+The Core Challenge — Defining OOP Purity
+This is where most teams get stuck. You need to nail this before anything else.
+OOP Purity generally refers to how strictly a language enforces or embodies the core OOP principles. The classic four are:
+PrincipleWhat it means for purity measurementEncapsulationCan data be truly hidden? Are access modifiers enforced?InheritanceIs inheritance supported cleanly? Single vs multiple?PolymorphismHow naturally does the language support runtime polymorphism?AbstractionDoes everything have to be an object? Are primitives objects?
+The purity debate in literature centers on:
+
+Smalltalk is considered the most "pure" OOP language — everything is an object, including numbers and booleans
+Java is mostly OOP but has primitives (int, float) that are not objects — a purity violation
+Python is multi-paradigm — OOP is optional, not enforced
+C++ supports OOP but is not OOP-first
+Ruby is closer to Smalltalk — everything is an object
+
+Your framework needs to quantify these differences systematically.
+
+Proposed Methodology — A Starting Framework
+Here is a concrete starting point your team can debate and refine:
+Step 1 — Define Your OOP Purity Dimensions (Metrics)
+I suggest these 8 measurable dimensions:
+DimensionWhat to measureWeightPrimitive ObjecthoodAre ALL data types objects including integers, booleans?HighEncapsulation EnforcementAre access modifiers strictly enforced by the language?HighSingle ResponsibilityDoes the language encourage/enforce SRP natively?MediumInheritance ModelSingle vs multiple, interface support, clarityMediumPolymorphism SupportMethod overriding, overloading, duck typingMediumAbstraction MechanismsAbstract classes, interfaces, protocolsMediumEverything is ObjectCan functions, classes themselves be treated as objects?HighOOP EnforceabilityCan you write non-OOP code easily? (lower = more pure)High
+Step 2 — Build a Scoring Rubric
+For each dimension, create a 0 to 5 scale with clearly defined criteria. Example for Primitive Objecthood:
+0 — Primitives are completely separate from objects (C++)
+1 — Primitives exist but have wrapper classes (Java)
+2 — Primitives can be autoboxed to objects (Java with autoboxing)
+3 — Primitives are objects in some contexts (Python — int is object class)
+4 — All values are objects but primitives optimized internally
+5 — Everything without exception is an object (Smalltalk, Ruby)
+Every dimension gets this treatment. This is your framework.
+Step 3 — Select Your Languages
+For a publishable paper I recommend 6 to 8 languages representing a clear spectrum:
+LanguageExpected PurityWhy IncludeSmalltalkHighestThe gold standard of OOP purityRubyVery HighModern, pure OOP, practicalJavaHigh-MediumMost studied OOP languagePythonMediumMost popular, multi-paradigmKotlinMedium-HighModern JVM, good comparison to JavaC++Low-MediumOOP capable but not OOP firstJavaScriptLowPrototype-based, hybridGoVery LowDeliberately avoids OOP
+This spread gives you a meaningful distribution across the purity spectrum.
+Step 4 — Validation Methodology
+This is what makes it publishable. You need to validate your framework through:
+Inter-rater reliability — have each of the 4 team members score independently, then measure agreement using Cohen's Kappa coefficient. If your scores are consistent across raters, your framework is reliable.
+Literature validation — cross-reference your scores against existing academic consensus on these languages. Your scores for Smalltalk should be highest — if they are not, your framework has a problem.
+Code sample analysis — write equivalent programs in each language (a simple banking system, a shape hierarchy, an animal class hierarchy) and measure how naturally each language expressed pure OOP patterns.
+
+Language Selection Recommendation
+Finalize these 6 for a focused, manageable paper:
+
+Java — baseline, most studied
+Python — most popular, good contrast
+Ruby — high purity, underrepresented in literature
+Kotlin — modern, relevant
+C++ — low purity end of spectrum
+JavaScript — prototype-based, interesting edge case
+
+Smalltalk is theoretically important but has almost no modern usage — including it is academically honest but adds complexity. Decide as a team.
+
+Related Literature You Must Read
+Before writing a single word of your paper, read these:
+
+"Object-Oriented Analysis and Design" — Grady Booch — foundational OOP definition
+"Measuring Object-Oriented Design" — Chidamber & Kemerer (1994) — the most cited OOP metrics paper ever written, your framework builds on this
+"A Metrics Suite for Object-Oriented Design" — IEEE Transactions on Software Engineering — directly relevant
+"Why OO Sucks" — Joe Armstrong (Erlang creator) — important counterpoint perspective
+"The Emerald Programming Language" paper — purity discussions
+
+Search these on Google Scholar and ResearchGate — most are freely accessible.
+
+Paper Structure When You Get There
+SectionContentAbstract250 words — problem, method, key findingsIntroductionWhy OOP purity matters, gap in literatureRelated WorkWhat others have measured, what is missingMethodologyYour 8 dimensions, scoring rubric, language selection rationaleResultsScores per language per dimension, aggregate rankingDiscussionWhat the scores reveal, surprising findings, limitationsConclusionFramework applicability, future workReferences20+ academic citations minimum
+
+Where to Publish
+For a first undergraduate research paper, target these in order of accessibility:
+Tier 1 — Most Accessible:
+
+IJARCCE — International Journal of Advanced Research in Computer and Communication Engineering
+IRJET — International Research Journal of Engineering and Technology
+Researchgate preprint — publish early, get feedback
+
+Tier 2 — More Competitive but More Credible:
+
+IEEE Access — open access, peer reviewed
+ACM Digital Library — most prestigious for CS
+
+Start with Tier 1 for your first paper. Getting published matters more than where at this stage.
+30/04/2026, 7:19 pm - Girish: padeu
+30/04/2026, 7:19 pm - Girish: tmle
+30/04/2026, 7:20 pm - GauravDulal: No
+06/05/2026, 5:11 pm - Girish: <Media omitted>
+06/05/2026, 5:11 pm - Girish: @⁨all⁩
+06/05/2026, 5:11 pm - Girish: what is this
+06/05/2026, 5:11 pm - Praful Dhakal: Aja bhanera bholi bujhaunu re
+06/05/2026, 5:12 pm - Girish: conducted vaniracha
+06/05/2026, 5:12 pm - Praful Dhakal: Umm agadi tyo topic ma research gareko xa bhane bujhaunu re
+06/05/2026, 5:47 pm - Girish: k ho aba
+06/05/2026, 5:47 pm - Girish: k ho k ho
+07/05/2026, 10:38 pm - Girish: This message was deleted
+26/05/2026, 9:10 pm - Girish: oi
+26/05/2026, 9:10 pm - Girish: @⁨all⁩
+26/05/2026, 9:10 pm - Girish: pratik mishra le ta diyo ta
+26/05/2026, 9:11 pm - Girish: darei
+26/05/2026, 9:11 pm - Girish: google chat ma
+26/05/2026, 9:11 pm - GauravDulal: Hait
+26/05/2026, 9:11 pm - Girish: k garne ho
+26/05/2026, 9:11 pm - Girish: 😮‍💨
+26/05/2026, 9:11 pm - Girish: uff
+26/05/2026, 9:12 pm - GauravDulal: Aba suru
+26/05/2026, 9:23 pm - Girish: hait
+27/05/2026, 8:17 am - Girish: @⁨all⁩
+27/05/2026, 8:18 am - Girish: https://www.overleaf.com/7124766772tmgrsrjxqhbs#461871
+27/05/2026, 8:25 am - Girish: 1. Introduction
+Object-Oriented Programming (OOP) has been one of the dominant paradigms in software engineering for decades. Languages such as Smalltalk were originally designed around strict object-oriented principles, while modern languages like Java, Python, and JavaScript have evolved into multi-paradigm systems that blend object-oriented, procedural, and functional features.
+Although the concept of “Object-Oriented Purity” is widely discussed in academic and developer communities, existing evaluations remain largely qualitative and language-specific. There is currently no standardized quantitative framework capable of objectively measuring and comparing the degree of object-oriented purity across programming languages.
+This research proposes a weighted quantitative framework designed to evaluate and compare the object-oriented purity of modern programming languages through measurable structural and paradigm-based criteria.
+2. Research Problem
+Existing literature focuses primarily on isolated critiques of individual programming languages rather than providing a generalized evaluation system. As a result, object-oriented purity remains a subjective and inconsistently defined concept.
+3. Research Objectives
+Main Objective: To develop a quantitative framework for evaluating object-oriented purity in programming languages.
+Specific Objectives:
+- To identify measurable characteristics of pure OOP
+- To design weighted evaluation metrics
+- To evaluate modern languages using the framework
+- To compare languages on a purity spectrum
+4. Research Questions
+1. What characteristics define object-oriented purity?
+2. How can OOP purity be measured quantitatively?
+3. How do modern programming languages compare under a standardized purity framework?
+4. What impact do non-OOP features have on overall purity?
+5. Literature Review
+This section should discuss Object-Oriented Programming theory, Smalltalk, Alan Kay, Java criticism, Python’s multi-paradigm design, JavaScript prototype inheritance, and existing software metrics research.
+You should explain what previous researchers discussed, identify their limitations, and describe how your framework fills the gap.
+6. Methodology
+This section forms the core of the research.
+Possible measurable metrics include:
+- Everything is an object
+- Encapsulation enforcement
+- Message passing
+- Static/global state penalty
+- Primitive type dependency
+- Functional/procedural blending
+You may use a weighted scoring system and define a formula such as:
+PurityScore = Σ(MetricWeight × MetricScore)
+7. Comparative Analysis
+Apply the framework to languages such as Smalltalk, Ruby, Java, Python, JavaScript, C++, and Scala.
+Compare and interpret the purity scores across languages.
+8. Results and Discussion
+Discuss why some languages score lower than others, the trade-offs between purity and practicality, and why modern languages evolved into hybrid paradigms.
+9. Conclusion
+This research transforms object-oriented purity from a subjective philosophical debate into a measurable architectural characteristic. The proposed framework establishes a standardized mechanism for evaluating modern programming languages and provides a foundation for future empirical studies in programming language theory.
+Additional Notes
+Include academic references, citations, metric justifications, and a comparison dataset.
+Useful keywords include: Object-Oriented Programming, Pure OOP, Multi-Paradigm Languages, Software Metrics, Language Design, Programming Language Theory, and Comparative Analysis.
+27/05/2026, 8:26 am - Girish: <Media omitted>
+27/05/2026, 8:26 am - Girish: @⁨all⁩
+27/05/2026, 8:26 am - Girish: hera na guys
+27/05/2026, 8:26 am - Girish: research paper ko format
+27/05/2026, 9:10 am - GauravDulal: La thikxa ma herchu ekxin ma
+27/05/2026, 9:10 am - GauravDulal: Wait
+27/05/2026, 9:11 am - GauravDulal: Framework code hanna thalna parla ki
+27/05/2026, 9:13 am - Girish: khaii
+27/05/2026, 9:13 am - Girish: lead gara na gaurav
+27/05/2026, 9:13 am - Girish: vana kk garne ho
+27/05/2026, 9:13 am - Girish: garcham
+27/05/2026, 9:23 am - GauravDulal: <Media omitted>
+27/05/2026, 9:23 am - GauravDulal: <Media omitted>
+27/05/2026, 9:24 am - GauravDulal: <Media omitted>
+27/05/2026, 10:38 am - Girish: <Media omitted>
+27/05/2026, 10:38 am - Girish: @⁨Praful Dhakal⁩
+27/05/2026, 10:41 am - Praful Dhakal: <Media omitted>
+27/05/2026, 10:48 am - GauravDulal: <Media omitted>
+27/05/2026, 10:48 am - Girish: Possible measurable metrics include:
+- Everything is an object
+- Encapsulation enforcement
+- Message passing
+- Static/global state penalty
+- Primitive type dependency
+- Functional/procedural blending
+You may use a weighted scoring system and define a formula such as:
+PurityScore = Σ(MetricWeight × MetricScore)
+27/05/2026, 10:50 am - Girish: <Media omitted>
+27/05/2026, 11:07 am - GauravDulal: <Media omitted>
+27/05/2026, 11:09 am - Girish: yess
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:15 pm - Panda Thapaliya: 
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:15 pm - Panda Thapaliya: <Media omitted>
+28/05/2026, 8:18 pm - Girish: woww <This message was edited>
+28/05/2026, 8:19 pm - Girish: aditya
+28/05/2026, 8:19 pm - Girish: bravo 👏
+28/05/2026, 8:25 pm - Panda Thapaliya: 
+28/05/2026, 8:59 pm - GauravDulal: Damn
+29/05/2026, 6:23 pm - GauravDulal: <Media omitted>
+29/05/2026, 6:24 pm - GauravDulal: Building a small project
+29/05/2026, 6:24 pm - GauravDulal: <Media omitted>
+02/06/2026, 12:29 am - GauravDulal: @⁨all⁩
+02/06/2026, 12:29 am - GauravDulal: Niggas
+02/06/2026, 12:29 am - GauravDulal: https://github.com/gyr0byte/OOP_Purity_Analyzer.git
+02/06/2026, 12:29 am - GauravDulal: Have a clear fucking look here
+02/06/2026, 12:29 am - GauravDulal: @⁨all⁩ respond to me ASAP after you see this
+02/06/2026, 5:23 am - Panda Thapaliya: 👍🫡
+02/06/2026, 1:24 pm - GauravDulal: @⁨all⁩
+02/06/2026, 1:35 pm - Panda Thapaliya: ?
+02/06/2026, 1:35 pm - GauravDulal: Arule khai herdaina ta
+02/06/2026, 1:35 pm - Panda Thapaliya: 
+03/06/2026, 9:14 am - GauravDulal: @⁨all⁩ we need a section called " Implementation and Validation " in research paper to show the software we developed for the measurement of oop purity
+03/06/2026, 9:28 am - Girish: Okkk
+03/06/2026, 9:28 am - Girish: man
+03/06/2026, 9:28 am - GauravDulal: Repo hereu?
+03/06/2026, 9:28 am - Girish: here
+03/06/2026, 9:34 am - Girish: chalako chainaa
+03/06/2026, 9:35 am - GauravDulal: Thikcha kei chaina
+03/06/2026, 9:37 am - Girish: chaliracha
+03/06/2026, 9:48 am - Girish: @⁨all⁩
+03/06/2026, 9:48 am - Girish: chalayeu?
+03/06/2026, 9:48 am - Girish: hahh
+03/06/2026, 9:48 am - Girish: try gareuu
+03/06/2026, 9:49 am - Girish: gareu ke ettikei vanya
+03/06/2026, 9:50 am - Girish: thikchaa repo ma belka chalayera herchu
+03/06/2026, 9:50 am - Girish: ok
+03/06/2026, 10:37 am - Girish: @⁨GauravDulal⁩ env variables haru chan?
+03/06/2026, 10:42 am - GauravDulal: Yes
+03/06/2026, 10:42 am - GauravDulal: Github ko token chaincha
+03/06/2026, 10:42 am - GauravDulal: To work properly
+03/06/2026, 10:42 am - GauravDulal: .env.example ma hera
+03/06/2026, 10:43 am - GauravDulal: Wait
+03/06/2026, 10:43 am - GauravDulal: Tyo push handinxu
+03/06/2026, 10:43 am - GauravDulal: Vako rainacha
+03/06/2026, 10:44 am - Girish: chaina .env.example
+03/06/2026, 10:44 am - Girish: hana hana
+03/06/2026, 10:44 am - Girish: tyo fine grained token?
+03/06/2026, 10:45 am - GauravDulal: Nai
+03/06/2026, 10:45 am - Girish: certain time ko lagi generate garne
+03/06/2026, 10:45 am - Girish: kun token t
+03/06/2026, 10:47 am - Girish: <Media omitted>
+03/06/2026, 10:47 am - Girish: this/
+03/06/2026, 10:47 am - Girish: ?
+03/06/2026, 10:49 am - GauravDulal: This message was deleted
+03/06/2026, 10:50 am - GauravDulal: <Media omitted>
+03/06/2026, 10:52 am - GauravDulal: Done
+03/06/2026, 10:52 am - GauravDulal: Env push vo
+03/06/2026, 10:52 am - GauravDulal: Example wala
+03/06/2026, 10:59 am - Girish: Okkk
+04/06/2026, 11:23 am - GauravDulal: Maile host gardye hai render ma
+04/06/2026, 11:24 am - GauravDulal: https://oop-purity-analyzer-1.onrender.com
+16/06/2026, 10:07 am - GauravDulal: https://www.youtube.com/watch?v=eF7HoC-cLRM&list=PLaldQ9PzZd9qPYGj4aWUXitBlfWz72e9m&index=27
+17/07/2026, 3:10 pm - ~ pramez created the username @Mrpramez
+01/08/2026, 10:29 am - Panda Thapaliya: Yo
+01/08/2026, 10:29 am - Panda Thapaliya: Kaila dhaki start garna ho
+01/08/2026, 10:29 am - Panda Thapaliya: Lakhna
+10/08/2026, 11:29 pm - Girish Sharma iic created the username @gir_ishhhh
