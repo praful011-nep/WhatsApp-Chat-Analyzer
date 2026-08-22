@@ -1,11 +1,10 @@
 import re
 import pandas as pd
 
-def preprosessor(data):
+def preprocess(data):
 
     #Timestamp format
-    date_pattern = r"\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}(?:\s(?:am|pm|AM|PM))?"
-    #Full Chat entry timestamp -sender: message
+    date_pattern = r"\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}(?:\s(?:am|pm|AM|PM))?"    #Full Chat entry timestamp -sender: message
     entry_pattern = (
         r"(?s)^" +
         r"(" + date_pattern + r")" +
