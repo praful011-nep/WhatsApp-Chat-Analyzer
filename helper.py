@@ -7,11 +7,16 @@ def fetch_stats(selected_user, df):
     num_message = df.shape[0]
    
     # Number of Words
-
     words = []
     for message in df['message']:
         words.extend(message.split())
 
-    return num_message, len(words)
+    # Number of Media Message
+    media = df[df['message'] == "<Media omitted>"].shape[0]
+
+    # Number of links shared
+    
+
+    return num_message, len(words), media
         
 
