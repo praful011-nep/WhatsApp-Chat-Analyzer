@@ -1,4 +1,5 @@
 from urlextract import URLExtract  # To find urls from messages
+import matplotlib.pyplot as plt
 
 def fetch_stats(selected_user, df):
 
@@ -25,4 +26,8 @@ def fetch_stats(selected_user, df):
 
     return num_message, len(words), media, len(link)
         
+def most_active_user(df):
+    x = df['user'].value_counts()
+    per = round((df['user'].value_counts()/df.shape[0])*100 , 2).reset_index().rename(columns = {'index': 'name', 'count': 'percent'})
 
+    return x, per
