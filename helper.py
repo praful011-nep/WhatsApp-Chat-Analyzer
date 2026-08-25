@@ -1,4 +1,6 @@
 from urlextract import URLExtract  # To find urls from messages
+import pandas as pd
+from collections import Counter
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
@@ -40,3 +42,27 @@ def create_wordcloud(selected_user,df):
     wc = WordCloud(width=500, height=500, min_font_size=10, background_color='white')
     df_wc = wc.generate(df['message'].str.cat(sep = " "))
     return wc
+
+def most_common_words(selected_user,df):
+    # open the file containing possible stopwords
+    f = open("stopwords.txt",'r')
+    stop_words = f.read()
+
+    if selected_user != "Overall":
+        df = df[df["user"] == selected_user]
+
+        # remove group notification and media files
+        temp = df[df['user']!= 'group_notification']
+        temp = temp[temp['message'] != "<Media omitted>"]
+        # will hold the words not in stopwords lsit
+        words = []
+
+        for message in temp['message']:
+            for word in message.lower().split():
+                if word not in stop_words:
+                    words.append(word)
+        
+        count = pd.DataFrame(Counter(words).most_common(25))
+        count.rename(columns={0: "Word", 1: "Frequency"}, inplace=True)
+
+        return count
