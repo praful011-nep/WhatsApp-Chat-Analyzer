@@ -2,6 +2,8 @@ import streamlit as st
 import preprocessor, helper
 import matplotlib.pyplot as plt
 
+st.set_page_config(layout="wide")
+
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
@@ -54,3 +56,11 @@ if uploaded_file is not None:
                 st.pyplot(fig)
             with col2:
                 st.dataframe(per)
+
+        # Word Cloud
+
+        st.title("Word Cloud of Messages")
+        df_wc = helper.create_wordcloud(selected_user, df)
+        fig, ax = plt.subplots()
+        ax.imshow(df_wc)
+        st.pyplot(fig)

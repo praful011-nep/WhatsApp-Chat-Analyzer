@@ -1,5 +1,6 @@
 from urlextract import URLExtract  # To find urls from messages
 import matplotlib.pyplot as plt
+from wordcloud import WordCloud
 
 def fetch_stats(selected_user, df):
 
@@ -31,3 +32,11 @@ def most_active_user(df):
     per = round((df['user'].value_counts()/df.shape[0])*100 , 2).reset_index().rename(columns = {'index': 'name', 'count': 'percent'})
 
     return x, per
+
+def create_wordcloud(selected_user,df):
+    if selected_user != "Overall":
+        df = df[df["user"] == selected_user]
+
+    wc = WordCloud(width=500, height=500, min_font_size=10, background_color='white')
+    df_wc = wc.generate(df['message'].str.cat(sep = " "))
+    return wc
