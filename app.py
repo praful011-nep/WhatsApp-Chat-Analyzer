@@ -80,5 +80,13 @@ if uploaded_file is not None:
         st.title("Emoji Analysis")
 
         emoji_df = helper.emoji_analysis(selected_user, df)
-        st.dataframe(emoji_df)
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.dataframe(emoji_df)
+        with col2:
+            fig, ax = plt.subplots()
+            ax.pie(emoji_df['Frequency'].head(), labels = emoji_df['Emoji'].head(), autopct = '%.2f')   
+            st.pyplot(fig) 
         
