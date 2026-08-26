@@ -86,7 +86,22 @@ if uploaded_file is not None:
         with col1:
             st.dataframe(emoji_df)
         with col2:
-            fig, ax = plt.subplots()
-            ax.pie(emoji_df['Frequency'].head(), labels = emoji_df['Emoji'].head(), autopct = '%.2f')   
-            st.pyplot(fig) 
-        
+            if not emoji_df.empty:
+                fig, ax = plt.subplots()
+                ax.pie(emoji_df['Frequency'].head(), labels = emoji_df['Emoji'].head(), autopct = '%.2f')   
+                st.pyplot(fig)
+            else:
+                st.write("No Emoji Sent by User") 
+
+        # Timeline of chat
+        st.title("Chat Timeline")
+
+        timeline = helper.timeline(selected_user, df)
+        col1, col2 = st.columns(2)
+
+        with col1:
+             st.dataframe(timeline)
+        with col2:
+            plt.plot(timeline['time'], timeline['message'])
+            plt.xticks(rotation = 'vertical')
+            plt.show()

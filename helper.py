@@ -97,3 +97,22 @@ def emoji_analysis(selected_user, df):
     emoji_df.rename(columns={0: "Emoji", 1: "Frequency"}, inplace=True)
 
     return emoji_df
+
+def timeline(selected_user, df):
+    # Check the message frequency in each months of each year
+    if selected_user != "Overall":
+        df = df[df["user"] == selected_user]
+
+    df['month_num'] = df['date'].dt.month
+
+    timeline = df.groupby(['year', 'month']).count()['message'].reset_index()
+    # Column with both year and month for plot
+    time = []
+    for i in range(timeline.shape[0]):
+        time.append(timeline['month'][i] + '-' + str(timeline['year'][i]))
+
+    timeline['time'] = time
+
+    
+
+    return timeline
