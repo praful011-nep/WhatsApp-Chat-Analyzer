@@ -3,6 +3,7 @@ import pandas as pd
 from collections import Counter
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+import emoji
 
 def fetch_stats(selected_user, df):
 
@@ -82,3 +83,17 @@ def most_common_words(selected_user,df):
     count.rename(columns={0: "Word", 1: "Frequency"}, inplace=True)
 
     return count
+
+def emoji_analysis(selected_user, df):
+    if selected_user != "Overall":
+        df = df[df["user"] == selected_user]
+
+    #A list that contains all the emojis on the chat
+    emojis = []
+    for message in df['message']:
+        emojis.extend([c for c in message if c in emoji.EMOJI_DATA])
+
+    emoji_df = pd.DataFrame(Counter(emojis).most_common(len(Counter(emojis))))
+    emoji_df.rename(columns={0: "Emoji", 1: "Frequency"}, inplace=True)
+
+    return emoji_df
