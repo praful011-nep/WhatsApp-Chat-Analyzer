@@ -66,5 +66,6 @@ if uploaded_file is not None:
         st.pyplot(fig)
 
         # Most Common Words
+        st.title("Most Common Words")
         count = helper.most_common_words(selected_user, df)
         st.dataframe(count)

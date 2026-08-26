@@ -51,18 +51,18 @@ def most_common_words(selected_user,df):
     if selected_user != "Overall":
         df = df[df["user"] == selected_user]
 
-        # remove group notification and media files
-        temp = df[df['user']!= 'group_notification']
-        temp = temp[temp['message'] != "<Media omitted>"]
-        # will hold the words not in stopwords lsit
-        words = []
+    # remove group notification and media files
+    temp = df[df['user']!= 'group_notification']
+    temp = temp[temp['message'] != "<Media omitted>"]
+    # will hold the words not in stopwords lsit
+    words = []
 
-        for message in temp['message']:
-            for word in message.lower().split():
-                if word not in stop_words:
-                    words.append(word)
-        
-        count = pd.DataFrame(Counter(words).most_common(25))
-        count.rename(columns={0: "Word", 1: "Frequency"}, inplace=True)
+    for message in temp['message']:
+        for word in message.lower().split():
+            if word not in stop_words:
+                words.append(word)
+    
+    count = pd.DataFrame(Counter(words).most_common(25))
+    count.rename(columns={0: "Word", 1: "Frequency"}, inplace=True)
 
-        return count
+    return count
