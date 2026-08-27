@@ -97,7 +97,8 @@ def emoji_analysis(selected_user, df):
 
     if not emoji_counts:
         return pd.DataFrame(columns=["Emoji", "Frequency"])
-    emoji_df = pd.DataFrame(Counter(emojis).most_common(len(Counter(emojis))))
+    
+    emoji_df = pd.DataFrame(emoji_counts)
     emoji_df.rename(columns={0: "Emoji", 1: "Frequency"}, inplace=True)
 
     return emoji_df

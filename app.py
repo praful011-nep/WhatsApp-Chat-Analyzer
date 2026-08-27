@@ -25,7 +25,7 @@ if uploaded_file is not None:
     selected_user = st.sidebar.selectbox("Show analysis with respect to", user_list)
 
     if st.sidebar.button("Show Analysis"):
-
+        st.title("Top Statistics")
         num_messages, words, media, link = helper.fetch_stats(selected_user, df)
         col1, col2, col3, col4 = st.columns(4)
 
@@ -42,6 +42,18 @@ if uploaded_file is not None:
                 st.header("Number of Links Shared")
                 st.title(link)    
 
+        # Timeline of chat
+        st.title("Chat Timeline")
+
+        timeline = helper.timeline(selected_user, df)
+        col1, col2 = st.columns(2)
+
+        with col1:
+                st.dataframe(timeline)
+        with col2:
+            plt.plot(timeline['time'], timeline['message'])
+            plt.xticks(rotation = 'vertical')
+            plt.show()
         # Finding the most active user in the group
         if selected_user == 'Overall':
             st.title("Most Active Users")
@@ -93,15 +105,4 @@ if uploaded_file is not None:
             else:
                 st.write("No Emoji Sent by User") 
 
-        # Timeline of chat
-        st.title("Chat Timeline")
-
-        timeline = helper.timeline(selected_user, df)
-        col1, col2 = st.columns(2)
-
-        with col1:
-             st.dataframe(timeline)
-        with col2:
-            plt.plot(timeline['time'], timeline['message'])
-            plt.xticks(rotation = 'vertical')
-            plt.show()
+        
