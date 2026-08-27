@@ -309,7 +309,7 @@ This project provides practical experience with:
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
