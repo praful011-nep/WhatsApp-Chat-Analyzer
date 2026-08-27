@@ -47,7 +47,7 @@ if uploaded_file is not None:
         col1, col2 = st.columns(2)
 
         with col1: 
-            st.title("Monthly Timeline ")
+            st.header("Monthly Timeline ")
             monthly_timeline, daily_timeline = helper.timeline(selected_user, df)
             
             fig, ax = plt.subplots()
@@ -56,12 +56,30 @@ if uploaded_file is not None:
             st.pyplot(fig)
         
         with col2: 
-            st.title("Daily Timeline")
+            st.header("Daily Timeline")
             fig, ax = plt.subplots()
             ax.plot(daily_timeline['date_only'], daily_timeline['message'], color = 'black')
             plt.xticks(rotation = 'vertical')
             st.pyplot(fig)
 
+        #Activity Map: Frequency of messages in each day of week and month of year
+        activity_week, activity_month = helper.activity_map(selected_user, df)
+        st.title("Activity Map")
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.header("Weekly Activity")
+            fig,ax = plt.subplots()
+            ax.bar(activity_week['day_name'], activity_week['count'])
+            plt.xticks(rotation = 'vertical')
+            st.pyplot(fig)
+
+        with col2:
+            st.header("Monthly Activity")
+            fig,ax = plt.subplots()
+            ax.bar(activity_month['month'], activity_month['count'])
+            plt.xticks(rotation = 'vertical')
+            st.pyplot(fig)
 
         # Finding the most active user in the group
         if selected_user == 'Overall':
