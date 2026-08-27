@@ -48,12 +48,15 @@ if uploaded_file is not None:
         timeline = helper.timeline(selected_user, df)
         col1, col2 = st.columns(2)
 
+       
         with col1:
-                st.dataframe(timeline)
-        with col2:
-            plt.plot(timeline['time'], timeline['message'])
+            fig, ax = plt.subplots()
+            ax.plot(timeline['time'], timeline['message'])
             plt.xticks(rotation = 'vertical')
-            plt.show()
+            st.pyplot(fig)
+        with col2:
+            st.dataframe(timeline)
+
         # Finding the most active user in the group
         if selected_user == 'Overall':
             st.title("Most Active Users")
@@ -95,14 +98,16 @@ if uploaded_file is not None:
 
         col1, col2 = st.columns(2)
 
+
         with col1:
-            st.dataframe(emoji_df)
-        with col2:
             if not emoji_df.empty:
                 fig, ax = plt.subplots()
                 ax.pie(emoji_df['Frequency'].head(), labels = emoji_df['Emoji'].head(), autopct = '%.2f')   
                 st.pyplot(fig)
             else:
                 st.write("No Emoji Sent by User") 
+        with col2:
+            st.dataframe(emoji_df)
+        
 
         
