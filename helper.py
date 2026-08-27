@@ -55,7 +55,7 @@ def create_wordcloud(selected_user,df):
                 y.append(word)
         return " ".join(y)
 
-    wc = WordCloud(width=500, height=500, min_font_size=10, background_color='white')
+    wc = WordCloud(width=300, height=300, min_font_size=10, background_color='white')
     temp['message'] = temp['message'].apply(remove_stop_words)
     df_wc = wc.generate(temp['message'].str.cat(sep = " "))
     return df_wc
@@ -108,16 +108,19 @@ def timeline(selected_user, df):
     if selected_user != "Overall":
         df = df[df["user"] == selected_user]
 
+    #Monthly timeline
     df['month_num'] = df['date'].dt.month
 
-    timeline = df.groupby(['year', 'month']).count()['message'].reset_index()
+    monthly_timeline = df.groupby(['year', 'month']).count()['message'].reset_index()
     # Column with both year and month for plot
     time = []
-    for i in range(timeline.shape[0]):
-        time.append(timeline['month'][i] + '-' + str(timeline['year'][i]))
+    for i in range(monthly_timeline.shape[0]):
+        time.append(monthly_timeline['month'][i] + '-' + str(monthly_timeline['year'][i]))
 
-    timeline['time'] = time
+    monthly_timeline['time'] = time
 
-    
+    #Daily TImeline
+    df['date_only'] = df['date'].dt.date
+    daily_timeline = df.groupby('date_only').count()['message'].reset_index()
 
-    return timeline
+    return monthly_timeline, daily_timeline

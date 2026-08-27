@@ -44,18 +44,24 @@ if uploaded_file is not None:
 
         # Timeline of chat
         st.title("Chat Timeline")
-
-        timeline = helper.timeline(selected_user, df)
         col1, col2 = st.columns(2)
 
-       
-        with col1:
+        with col1: 
+            st.title("Monthly Timeline ")
+            monthly_timeline, daily_timeline = helper.timeline(selected_user, df)
+            
             fig, ax = plt.subplots()
-            ax.plot(timeline['time'], timeline['message'])
+            ax.plot(monthly_timeline['time'], monthly_timeline['message'])
             plt.xticks(rotation = 'vertical')
             st.pyplot(fig)
-        with col2:
-            st.dataframe(timeline)
+        
+        with col2: 
+            st.title("Daily Timeline")
+            fig, ax = plt.subplots()
+            ax.plot(daily_timeline['date_only'], daily_timeline['message'], color = 'black')
+            plt.xticks(rotation = 'vertical')
+            st.pyplot(fig)
+
 
         # Finding the most active user in the group
         if selected_user == 'Overall':
