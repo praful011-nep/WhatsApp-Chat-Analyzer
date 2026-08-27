@@ -1,6 +1,7 @@
 import streamlit as st
 import preprocessor, helper
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 st.set_page_config(layout="wide")
 
@@ -63,7 +64,7 @@ if uploaded_file is not None:
             st.pyplot(fig)
 
         #Activity Map: Frequency of messages in each day of week and month of year
-        activity_week, activity_month = helper.activity_map(selected_user, df)
+        activity_week, activity_month, activity_time = helper.activity_map(selected_user, df)
         st.title("Activity Map")
         col1, col2 = st.columns(2)
 
@@ -80,6 +81,11 @@ if uploaded_file is not None:
             ax.bar(activity_month['month'], activity_month['count'])
             plt.xticks(rotation = 'vertical')
             st.pyplot(fig)
+
+        st.header("Heatmap of activity on each time")
+        fig, ax = plt.subplots()
+        ax = sns.heatmap(activity_time)
+        st.pyplot(fig)
 
         # Finding the most active user in the group
         if selected_user == 'Overall':

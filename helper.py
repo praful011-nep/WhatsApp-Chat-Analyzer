@@ -2,6 +2,7 @@ from urlextract import URLExtract  # To find urls from messages
 import pandas as pd
 from collections import Counter
 import matplotlib.pyplot as plt
+import seaborn as sns
 from wordcloud import WordCloud
 import emoji
 
@@ -130,4 +131,16 @@ def activity_map(selected_user, df):
             df = df[df["user"] == selected_user]
     activity_week = df['day_name'].value_counts().reset_index()
     activity_month = df['month'].value_counts().reset_index()
-    return activity_week, activity_month
+
+    period = []
+    for hour in df[['day_name', 'hour']]['hour']:
+        if hour == 23:
+            period.append(str(hour) + "-" + str('00'))
+        elif hour == 0:
+            period.append(str('00') + '-' + str(hour+1))
+        else:
+            period.append(str(hour) + '-' + str(hour+1))
+    df['period'] = period
+    activity_time = df.pivot_table(index = 'day_name', columns='period', values='message', aggfunc='count').fillna(0)
+
+    return activity_week, activity_month, activity_time
