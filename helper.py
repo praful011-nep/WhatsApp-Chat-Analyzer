@@ -32,8 +32,9 @@ def fetch_stats(selected_user, df):
     return num_message, len(words), media, len(link)
         
 def most_active_user(df):
+    # Counts the number of message of each user and calculate the percentage contribution in chat
     x = df['user'].value_counts()
-    per = round((df['user'].value_counts()/df.shape[0])*100 , 2).reset_index().rename(columns = {'index': 'name', 'count': 'percent'})
+    per = round((x/df.shape[0])*100 , 2).reset_index().rename(columns = {'index': 'name', 'count': 'percent'})
 
     return x, per
 
@@ -50,12 +51,13 @@ def create_wordcloud(selected_user,df):
     temp = temp[temp['message'] != "<Media omitted>"]
 
     def remove_stop_words(message):
+        # For every word in the chat stop words are filtered and not included for further analysis
         y = []
         for word in message.lower().split():
             if word not in stop_words:
                 y.append(word)
         return " ".join(y)
-
+    # Create wordcloud
     wc = WordCloud(width=300, height=300, min_font_size=10, background_color='white')
     temp['message'] = temp['message'].apply(remove_stop_words)
     df_wc = wc.generate(temp['message'].str.cat(sep = " "))
@@ -129,9 +131,11 @@ def timeline(selected_user, df):
 def activity_map(selected_user, df):
     if selected_user != "Overall":
             df = df[df["user"] == selected_user]
+    # Number of messages in each day of week and each month of year(active day or month) are count       
     activity_week = df['day_name'].value_counts().reset_index()
     activity_month = df['month'].value_counts().reset_index()
 
+    # For range labels in heatmap
     period = []
     for hour in df[['day_name', 'hour']]['hour']:
         if hour == 23:

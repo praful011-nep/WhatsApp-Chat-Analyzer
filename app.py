@@ -8,12 +8,13 @@ st.set_page_config(layout="wide")
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
+# If file is loaded then it fetch value from file and preprocess the data into dataframe through preprocessor.py
 if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
     data = bytes_data.decode("utf-8")
     df = preprocessor.preprocess(data)
 
-    st.dataframe(df)
+    st.dataframe(df) #Display dataframe
 
     #Fetching unique users
     user_list = df['user'].unique().tolist()
@@ -26,6 +27,7 @@ if uploaded_file is not None:
     selected_user = st.sidebar.selectbox("Show analysis with respect to", user_list)
 
     if st.sidebar.button("Show Analysis"):
+        # Main numeric statistics
         st.title("Top Statistics")
         num_messages, words, media, link = helper.fetch_stats(selected_user, df)
         col1, col2, col3, col4 = st.columns(4)
