@@ -8,7 +8,7 @@ The project uses **Streamlit** to provide an interactive web interface where use
 
 Try the deployed application here:
 
-👉 **[WhatsApp Chat Analyzer](https://whatsap-chat-analyzer.streamlit.app/)**
+👉 **[WhatsApp Chat Analyzer](https://whatsap-chat-analyzer.streamlit.app)**
 
 ---
 
