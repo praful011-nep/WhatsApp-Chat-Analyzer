@@ -4,6 +4,14 @@ A Python-based **WhatsApp Chat Analyzer** that processes exported WhatsApp chat 
 
 The project uses **Streamlit** to provide an interactive web interface where users can upload a WhatsApp `.txt` chat export, select a participant, and explore different aspects of the conversation.
 
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+👉 **[WhatsApp Chat Analyzer](https://whatsap-chat-analyzer.streamlit.app/)**
+
+---
+
 ## Features
 
 ### 📊 Chat Statistics
